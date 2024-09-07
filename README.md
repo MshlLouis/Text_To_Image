@@ -5,6 +5,8 @@
 
 As of the initial commit (08.09.2024), only a small collection of chars is supported, namely all chars with ASCII code 0-127 (aka signed byte).
 Those include all standard letters + numbers + some special chars. To see all available chars see https://www.ascii-code.com
+
+
 I don't recommend converting a random image to text but only those images that have been created with this program. I might add support for more chars in the future.
 
 ## 2: How it works
