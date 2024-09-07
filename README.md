@@ -20,4 +20,9 @@ of total chars, creating black pixels in the process but overall less than the i
 ## 3: An example
 
 The following is an example of the entire code converted into an image:
+
+
 ![img_out](https://github.com/user-attachments/assets/fb493cf7-b738-4be7-aedb-fac996a964e0)
+
+
+(This image was scaled up to 400% to increase visibility. Changing it back to its original size WILL NOT work since important information is lost in the process)
