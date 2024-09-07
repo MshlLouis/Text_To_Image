@@ -20,4 +20,4 @@ of total chars, creating black pixels in the process but overall less than the i
 ## 3: An example
 
 The following is an example of the entire code converted into an image:
-![Alt text](C:\Users\louis\Downloads\img_out.png?raw=true "Example")
+![img_out](https://github.com/user-attachments/assets/fb493cf7-b738-4be7-aedb-fac996a964e0)
