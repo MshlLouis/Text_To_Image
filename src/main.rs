@@ -20,7 +20,7 @@ fn create_image(path_text: &str, path_img: &str) {
     let mut string_counter: usize = 0;
 
     let text_string = fs::read_to_string(path_text).expect("Unable to read file");
-    let total_chars: f64 = text_string.len() as f64;
+    let total_chars = text_string.len() as f64;
     let vec_chars = split_into_chunks(text_string, 3);
     let vec_chars_len = vec_chars.len();
 
