@@ -29,11 +29,16 @@ The following is an example of the entire code converted into an image:
 ![img_out](https://github.com/user-attachments/assets/fb493cf7-b738-4be7-aedb-fac996a964e0)
 
 
-
 The following is an example of the entire code of my TwitchBot main file converted into an image:
 
 
 ![img_out2](https://github.com/user-attachments/assets/0e714fb6-c2ce-448e-a400-f6e4e0fb08da)
 
 
-(Both images were scaled up to increase visibility. Changing them back to their original size WILL NOT work since important information is lost in the process of scaling)
+Lastly the entire movie script for Shrek 1 converted into an image:
+
+
+![shrek](https://github.com/user-attachments/assets/bab8b069-ccf7-43b0-ba4c-570ad4de54be)
+
+
+(The first 2 images were scaled up to increase visibility. Changing them back to their original size WILL NOT work since important information is lost in the process of scaling)
