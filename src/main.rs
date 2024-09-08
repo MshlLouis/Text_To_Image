@@ -1,7 +1,6 @@
 use std::fs;
 use std::fs::OpenOptions;
 use std::io::Write;
-use std::path::Path;
 use image::{GenericImageView, Rgba};
 
 fn main() {
@@ -62,9 +61,8 @@ fn read_image(path: &str, path_output: &str) {
 
 fn write_file(path: &str, all_pixels: Vec<Rgba<u8>>, width: u32, height: u32) {
 
-    let path = Path::new(path);
-    if path.exists() {
-        fs::remove_file(path).expect("Didn't delete, file doesn't exist");
+    if fs::metadata(path).is_ok() {
+        fs::remove_file(path).expect("Error deleting file");
     }
 
     let mut file = OpenOptions::new()
