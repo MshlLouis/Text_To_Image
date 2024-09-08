@@ -30,3 +30,13 @@ The following is an example of the entire code converted into an image:
 
 
 (This image was scaled up to 400% to increase visibility. Changing it back to its original size WILL NOT work since important information is lost in the process)
+
+
+
+The following is an example of the entire code of my TwitchBot main file converted into an image:
+
+
+![img_out_2](https://github.com/user-attachments/assets/f8b9e53d-47a3-4f81-bb5b-25c44757e907)
+
+
+(Again the image was slightly scaled up to improve visibility)
