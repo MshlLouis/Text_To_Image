@@ -50,11 +50,18 @@ fn create_image(path_text: &str, path_img: &str) {
 
 fn check_for_illegal_chars(text_string: &String) {
     let temp = text_string.chars();
+    let mut all_errors = vec![];
     for x in temp {
         if x.to_string().bytes().len() > 1 {
-            println!("Found illegal char in text: {}", x);
-            exit(1);
+            all_errors.push(x);
         }
+    }
+    if !all_errors.is_empty() {
+        for x in &all_errors {
+            println!("Found illegal char in text: {}", x);
+        }
+        println!("Total number of illegal chars: {}", all_errors.len());
+        exit(1);
     }
     println!("No illegal chars found!");
 }
