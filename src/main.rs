@@ -1,6 +1,7 @@
 use std::fs;
 use std::fs::OpenOptions;
 use std::io::Write;
+use std::process::exit;
 use image::{GenericImageView, Rgba};
 
 fn main() {
@@ -18,15 +19,16 @@ fn main() {
 fn create_image(path_text: &str, path_img: &str) {
     let pixel_black = image::Rgb([0u8, 0u8, 0u8]);
     let mut string_counter: usize = 0;
-
     let text_string = fs::read_to_string(path_text).expect("Unable to read file");
     let total_chars = text_string.len() as f64;
+
+    check_for_illegal_chars(&text_string);
+
     let vec_chars = split_into_chunks(text_string, 3);
     let vec_chars_len = vec_chars.len();
 
     let img_x = (total_chars / 3f64).sqrt().ceil() as u32;
     let img_y = (total_chars / 3f64).sqrt().ceil() as u32;
-
     let mut imgbuf = image::ImageBuffer::new(img_x, img_y);
 
     for x in 0..img_x {
@@ -44,6 +46,17 @@ fn create_image(path_text: &str, path_img: &str) {
         }
     }
     imgbuf.save(path_img).unwrap();
+}
+
+fn check_for_illegal_chars(text_string: &String) {
+    let temp = text_string.chars();
+    for x in temp {
+        if x.to_string().bytes().len() > 1 {
+            println!("Found illegal char in text: {}", x);
+            exit(1);
+        }
+    }
+    println!("No illegal chars found!");
 }
 
 fn read_image(path: &str, path_output: &str) {
