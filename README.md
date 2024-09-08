@@ -19,7 +19,7 @@ This way it's possible to store 3 chars in 1 pixel. This pixel is then set onto 
 To make the logic behind everything easier the image is a square, meaning x and y are equal. The problem with this approach is that unless the total number of characters used in the text file is a
 perfect square of (total number of chars / 3), there will be black pixels filling up the bottom of the image. A more efficient approach would be to find all divisors of the
 total number of chars and then taking the two values closest to each other. If those values are too far apart (for example for prime numbers), the program increases the number
-of total chars, creating black pixels in the process but overall less than the initial appproach.
+of total chars, creating black pixels in the process but overall less than the initial approach.
 
 ## 3: An example
 
