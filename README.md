@@ -36,7 +36,7 @@ The following is an example of the entire code converted into an image:
 The following is an example of the entire code of my TwitchBot main file converted into an image:
 
 
-![img_out_2](https://github.com/user-attachments/assets/f8b9e53d-47a3-4f81-bb5b-25c44757e907)
+![img_out2](https://github.com/user-attachments/assets/0e714fb6-c2ce-448e-a400-f6e4e0fb08da)
 
 
 (Again the image was slightly scaled up to improve visibility)
