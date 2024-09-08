@@ -41,4 +41,4 @@ Lastly the entire movie script for Shrek 1 converted into an image:
 ![shrek](https://github.com/user-attachments/assets/bab8b069-ccf7-43b0-ba4c-570ad4de54be)
 
 
-(The first 2 images were scaled up to increase visibility. Changing them back to their original size WILL NOT work since important information is lost in the process of scaling)
+(The first 2 images were scaled up to increase visibility. Changing them back to their original size WILL NOT work since important information is lost in the process of scaling. The image for Shrek 1 is unchanged and is convertable back to text)
